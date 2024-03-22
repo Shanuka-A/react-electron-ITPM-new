@@ -54,7 +54,13 @@ const DictionaryPage = () => {
   };
 
   return (
-    <div className="">
+    
+    <div className="mt-5 w-full rounded-2xl bg-white p-5" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom"
+    data-aos-duration="1500">
+      {/* <div className="mt-8 rounded-2xl bg-white p-8">
+        <h1 className="text-xl font-bold text-navy-700">Sinhala-English Switch Dictionary</h1>
+      </div> */}
       <div className="mt-8 rounded-2xl bg-white p-8">
       <h1 className="text-xl font-bold text-navy-700">Sinhala-English Switch Dictionary</h1>
       </div>
@@ -64,7 +70,7 @@ const DictionaryPage = () => {
         <input
           type="text"
           placeholder="Enter your word"
-          className="w-full border border-gray-300 p-2 rounded-md mb-4"
+          className="bg-white-600 w-full border border-gray-300 p-2 rounded-md mb-4"
           value={inputText}
           onChange={handleInputChange}
         />
@@ -77,7 +83,7 @@ const DictionaryPage = () => {
         </button>
 
       </div>
-      <div className="mt-4 bg-white rounded-lg p-4">
+      <div className="mt-4 bg-white rounded-lg p-4 border-result">
 
         <h2 className="text-lg mb-2">Result:</h2>
 

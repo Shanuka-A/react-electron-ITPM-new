@@ -13,9 +13,9 @@ import {
 import { useState } from "react";
 import TranslationService from "services/TranslationService";
 import Singlish from "services/singlish";
-import Footer from "../../components/footer/Footer";
-import Navbar from "../../components/navbar/index";
-import FreeCard from "../../components/sidebar/components/SidebarCard";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function TranslatePage() {
   const [sourceLanguage, setSourceLanguage] = useState("singlish");
@@ -72,14 +72,16 @@ function TranslatePage() {
 
   return (
     <div className="mt-5 grid grid-cols-1 gap-5 xl:grid-cols-1">
-      <div>
+      <div className="mt-4 w-full rounded-2xl bg-white p-8" data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-duration="1500">
         {/* <Navbar/> */}
         <Card
           extra={"w-full h-full sm:overflow-auto px-6"}
           style={{ padding: "16px" }}
         >
           <header className="relative flex items-center justify-between pt-4">
-            <div className="text-xl font-bold text-navy-700 dark:text-white">
+            <div className="text-xl font-bold text-navy-700 ">
               Sinhala to English
             </div>
           </header>

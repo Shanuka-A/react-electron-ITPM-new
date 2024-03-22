@@ -86,7 +86,7 @@ function TextConverter() {
           <select
             value={selectedMethod}
             onChange={handleDropdownChange} // Use the handleDropdownChange handler
-            className="select select-bordered w-6/12 max-w-xs"
+            className="select select-bordered w-6/12 max-w-xs b"
           >
             <optgroup label="Legacy format to Unicode">
               <option value="dlManelToUnicode">DL-Manel to Unicode</option>

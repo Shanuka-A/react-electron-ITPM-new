@@ -16,7 +16,7 @@
   
   /* Card styles for input and button */
   .bg-white {
-    background-color: #ffffff; /* White background color */
+    background-color: #bfd3ed; /* White background color */
   }
   
   .rounded-lg {
@@ -24,8 +24,13 @@
   }
   
   /* Input field styles */
+
+  .bg-white-600{
+    background-color: white;
+  }
+
   .border {
-    border: 1px solid #ccc; /* Gray border */
+    border: 1px solid #7469dd; /* Gray border */
   }
   
   .p-2 {
@@ -54,11 +59,12 @@
   }
   
   /* Result container styles */
+  
   .mt-4 {
     margin-top: 1rem; /* Margin top */
   }
   
   .text-gray-800 {
-    color: #333; /* Dark gray text color */
+    color: #0a0909; /* Dark gray text color */
   }
   
